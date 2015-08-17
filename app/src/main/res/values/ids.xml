@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_near" type="id">button_near</item>
+    <item name="button_far" type="id">button_far</item>
+</resources>

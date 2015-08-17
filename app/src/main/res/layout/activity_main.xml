@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/empty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#ffff9814"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:layout_width="90dp"
+        android:id="@+id/button_up"
+        android:linksClickable="true"
+        android:background="@drawable/arrow_up"
+        android:layout_gravity="center_horizontal"></Button>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left "
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#ffff9814"
+            android:textStyle="bold"
+            android:id="@+id/text_left" />
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:autoLink="web"
+            android:clickable="true"
+            android:id="@+id/button_left"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@drawable/arrow_left"></Button>
+        <View android:layout_width="100dp"
+            android:layout_height="100dp"
+            ></View>
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:autoLink="web"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:layout_gravity="right"
+            android:id="@+id/button_right"
+            android:layout_weight="1"
+            android:background="@drawable/arrow_right"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#ffff9814"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <Button
+        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:id="@+id/button_down"
+        android:background="@drawable/arrow_down"
+        android:layout_gravity="center_horizontal"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#ffff9814"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Near"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#ffff9814"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@id/button_near"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/plus_button"/>
+        <Button
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:id="@id/button_far"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/minus_button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Far"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#ffff9814"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnSpeak"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:src="@drawable/ico_mic"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+>
+        <Button
+            android:layout_height="70dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/button_calibrate"
+            android:text="calibration"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+    </LinearLayout>
+
+
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible" />
+
+
+
+</LinearLayout>
