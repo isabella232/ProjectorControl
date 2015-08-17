@@ -29,6 +29,8 @@ After remote connect to the Pi through ssh, type
 
 Download and install VNCViewer app
 
+https://www.realvnc.com/download/viewer/
+
 Start VNCViewer in the Applications on your Mac/PC,
 
 VNC Server:  10.0.3.160:1 //ip address of the Pi 
