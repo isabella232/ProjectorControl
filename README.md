@@ -5,7 +5,7 @@ use the ssh command to connect your PC with Raspberry Pi:
 
 - ssh 10.0.3.160 -l pi 
 
-//Note: ip address of the Rapberry Pi might changes
+//Note: the ip address of the Rapberry Pi might changes
 
 The password is peel1234
 
