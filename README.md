@@ -5,7 +5,7 @@ use the ssh command to connect your PC with Raspberry Pi:
 
 - ssh 10.0.3.160 -l pi 
 
-
+//Note: ip address of the Rapberry Pi might changes
 
 The password is peel1234
 
@@ -37,7 +37,7 @@ VNC Server:  10.0.3.160:1 //ip address of the Pi
 
 Click Connect, and type the password: peel1234
 
-You write the python script and move it to the root of the Pi by typing
+You can write the python script and move it to the root of the Pi by typing
 - sudo cp Desktop/controller.py /root/
 
 
