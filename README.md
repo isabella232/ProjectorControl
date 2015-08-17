@@ -1,9 +1,11 @@
 # ProjectorControl
 
-## To run the program, type the following commands at Terminal:
+## To run the program
+use the ssh command to connect your PC with Raspberry Pi:
 
 - ssh 10.0.3.160 -l pi 
-//ssh ip-address of the Rapberry Pi
+
+
 
 The password is peel1234
 
