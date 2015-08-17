@@ -2,7 +2,8 @@
 
 ## To run the program, type the following commands at Terminal:
 
-- ssh 10.0.3.160 -l pi  //ssh ip-address of the Rapberry Pi
+- ssh 10.0.3.160 -l pi 
+//ssh ip-address of the Rapberry Pi
 
 The password is peel1234
 
