@@ -26,7 +26,9 @@ Now you can control the platform from your phone app
 After remote connect to the Pi through ssh, type
 
 - vncserver :1
+
 Download and install VNCViewer app
+
 Start VNCViewer in the Applications on your Mac/PC,
 
 VNC Server:  10.0.3.160:1 //ip address of the Pi 
