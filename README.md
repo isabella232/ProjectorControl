@@ -1,5 +1,7 @@
 # ProjectorControl
 
+The Arduino folder contains the code needs to be loaded at the arduino chip.
+The RaspberryPi folder contains a python script need to be run at the root of the Pi
 ## To run the program
 use the ssh command to connect your PC with Raspberry Pi:
 
